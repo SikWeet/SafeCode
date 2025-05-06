@@ -19,15 +19,15 @@ from SafeCode import CodeType
 SF.configure(len_code: int = 4, ttl: int = 120, max_size: int = 1024, code_type: CodeType | list[CodeType] = CodeType.default, debug_mode: bool = False)
 
 """
-	[!] The configuration is set up once when the whole project is started. [!]
+[!] The configuration is set up once when the whole project is started. [!]
 
-	Initialises the cache with the specified parameters.
+Initialises the cache with the specified parameters.
 
-	:param len_code: fixed length of generated code (default 4 digits).
-	:param ttl: Time to Live (TTL) for each item in the cache in seconds (default is 120 seconds).
-	:param code_type: Select the type of code to be generated.
-	:param max_size: Maximum cache size (default is 1024 items).
-	:param debug_mode: Debug mode for developers (default is False).
+:param len_code: fixed length of generated code (default 4 digits).
+:param ttl: Time to Live (TTL) for each item in the cache in seconds (default is 120 seconds).
+:param code_type: Select the type of code to be generated.
+:param max_size: Maximum cache size (default is 1024 items).
+:param debug_mode: Debug mode for developers (default is False).
 """
 ```
 ### Generation of a unique code
